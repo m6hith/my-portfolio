@@ -1,6 +1,7 @@
 import portfolio from "../assets/projects/portfolio.jpg";
 import netflix from "../assets/projects/netflix.jpg";
 import jobby from "../assets/projects/jobby.jpg";
+import chatapp from "../assets/projects/chatapp.jpg";
 
 export const HERO_CONTENT = `I am a passionate and aspiring full-stack developer with a strong foundation in building user-friendly and scalable web applications. I am proficient in front-end technologies such as HTML, CSS, Tailwind CSS, and React.js, and skilled in back-end technologies such as Node.js, Express.js, and MongoDB.  Additionally, I have experience working with SQL databases and beginner-level knowledge of Python, C++, and data structures and algorithms (DSA). I am eager to apply my skills to solve real-world problems, contribute to impactful projects, and continuously grow as a developer.`;
 
@@ -28,10 +29,23 @@ export const PROJECTS = [
       "A job application platform connecting job seekers with employers, offering advanced search filters, resume uploads, and real-time application tracking.",
     technologies: ["HTML", "CSS", "Bootstrap"],
   },
+  {
+    title: "Real Time Chat Application",
+    image: chatapp,
+    description:
+      "A secure and efficient real-time chat application enabling seamless communication with instant messaging, user authentication, and dynamic online status tracking. Designed for a smooth and interactive user experience.",
+    technologies: [
+      "React Js",
+      "Tailwind CSS",
+      "Node Js",
+      "Socket.io",
+      "Express Js",
+      "MongoDB",
+    ],
+  },
 ];
 
 export const CONTACT = {
-  address: "Vel Tech University, Chennai, 600055",
   phoneNo: "+91 9398667610 ",
   email: "mohithkuruba83@gmail.com",
 };

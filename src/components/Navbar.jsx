@@ -1,8 +1,7 @@
-import logo from "../assets/kevinRushLogo.png";
+import logo from "../assets/myLogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -15,16 +14,15 @@ const Navbar = () => {
           <FaLinkedin />
         </a>
 
-        <a href="" target="">
+        <a href="https://github.com/m6hith" target="_blank">
           <FaGithub />
         </a>
 
-        <a href="" target="">
+        <a
+          href="https://www.instagram.com/kurubamohith/?utm_source=ig_web_button_share_sheet"
+          target="_blank"
+        >
           <FaInstagram />
-        </a>
-
-        <a href="" target="">
-          <FaSquareXTwitter />
         </a>
       </div>
     </nav>
